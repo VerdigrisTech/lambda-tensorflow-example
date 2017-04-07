@@ -1,0 +1,13 @@
+{
+    "dev": {
+        "app_function": "app.app", 
+        "s3_bucket": "zappa-qxuea5nia2",
+        "memory_size": 1024,
+        "timeout_seconds": 300,
+        "debug": true,
+        "use_precompiled_packages": false,
+        "delete_local_zip": true,
+        "slim_handler": true,
+        "keep_warm": false
+    }
+}
