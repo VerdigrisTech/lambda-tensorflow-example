@@ -1,0 +1,4 @@
+Flask==0.12.1
+pandas==0.19.2
+tensorflow==1.0.1
+zappa==0.40.0
