@@ -2,7 +2,20 @@
 
 ## Setup
 
-First create a `virtualenv` named `env`.
+Setup your AWS config, by setting `~/.aws/config` and `~/.aws/credentials`
+
+```
+==> config <==
+[default]
+region = us-west-2
+
+==> credentials <==
+[default]
+aws_access_key_id=
+aws_secret_access_key=
+```
+
+Create a `virtualenv` named `env`.
 
     virtualenv env
 
