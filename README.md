@@ -1,12 +1,16 @@
 # lambda-tensorflow-example
 
-## Setup
+## Requirements
+
+Must run on a Linux-64 machine.
 
 Verify the Python you are using is UCS-4:
 
     python -c 'import sys; print sys.maxunicode'
 
 Should print `1114111`.
+
+## Setup
 
 Setup your AWS config, by setting `~/.aws/config` and `~/.aws/credentials`
 
