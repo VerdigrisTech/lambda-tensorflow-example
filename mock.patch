@@ -1,0 +1,14 @@
+--- env/lib/python2.7/site-packages/mock/mock.py	2017-04-10 11:59:55.638916488 -0700
++++ env/lib/python2.7/site-packages/mock/mymock.py	2017-04-07 16:50:15.938142652 -0700
+@@ -68,9 +68,8 @@
+ from six import wraps
+ from pbr.version import VersionInfo
+ 
+-_v = VersionInfo('mock').semantic_version()
+-__version__ = _v.release_string()
+-version_info = _v.version_tuple()
++__version__ = '2.0.0'
++version_info = (2, 0, 0, 'final', 0)
+ 
+ import mock
+ 

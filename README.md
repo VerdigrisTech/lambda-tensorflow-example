@@ -39,6 +39,8 @@ Install the packages:
 
 Patch mock by following this [comment](https://github.com/Miserlou/Zappa/issues/779#issuecomment-292672317).
 
+    patch -p0 < mock.patch
+
 Initialize zappa:
 
     zappa init
